@@ -16,6 +16,6 @@ El objetivo principal es simular un entorno real de desarrollo en equipo aplican
 
 ## 👥 Equipo de Trabajo
 
-- **David Garrido Quiles**  
-- **Juan Chicharro Ruiz**  
-- **Javier Quintana Rojo**
+- **David Garrido Quiles (A)**  
+- **Juan Chicharro Ruiz (C)**  
+- **Javier Quintana Rojo (B)**
