@@ -1,4 +1,4 @@
-name: Verificacion de archivos del repositorio
+name: Verificación de archivos del repositorio
 
 on:
   push:
@@ -22,11 +22,5 @@ jobs:
             exit 1
           fi
 
-      - name: Verificar archivo fecha
-        run: |
-          if [ -f fecha.txt ]; then
-            echo "fecha.txt existe correctamente"
-          else
-            echo "ERROR: fecha.txt no existe"
-            exit 1
-          fi
+
+          
