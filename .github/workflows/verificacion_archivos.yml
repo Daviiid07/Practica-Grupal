@@ -30,4 +30,3 @@ jobs:
             echo "ERROR: fecha.txt no existe"
             exit 1
           fi
-
