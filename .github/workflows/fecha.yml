@@ -1,0 +1,19 @@
+name: Crear archivo con fecha
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  crear-fecha:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Crear archivo con la fecha
+        run: date > fecha.txt
+
+      - name: Mostrar archivo
+        run: cat fecha.txt
